@@ -15,3 +15,5 @@ steps:
     commands:
       - echo "Testing ..."
       - ./executable
+    when:
+      - event: manual
